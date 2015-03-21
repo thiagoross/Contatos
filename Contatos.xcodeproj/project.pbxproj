@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFBEC36E1ABE29AF00DEC7B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEC36D1ABE29AF00DEC7B0 /* main.m */; };
+		AFBEC3711ABE29AF00DEC7B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEC3701ABE29AF00DEC7B0 /* AppDelegate.m */; };
+		AFBEC3741ABE29AF00DEC7B0 /* Contatos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFBEC3721ABE29AF00DEC7B0 /* Contatos.xcdatamodeld */; };
+		AFBEC3771ABE29AF00DEC7B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEC3761ABE29AF00DEC7B0 /* ViewController.m */; };
+		AFBEC37A1ABE29AF00DEC7B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBEC3781ABE29AF00DEC7B0 /* Main.storyboard */; };
+		AFBEC37C1ABE29AF00DEC7B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBEC37B1ABE29AF00DEC7B0 /* Images.xcassets */; };
+		AFBEC37F1ABE29AF00DEC7B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBEC37D1ABE29AF00DEC7B0 /* LaunchScreen.xib */; };
+		AFBEC38B1ABE29AF00DEC7B0 /* ContatosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBEC38A1ABE29AF00DEC7B0 /* ContatosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFBEC3851ABE29AF00DEC7B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFBEC3601ABE29AF00DEC7B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFBEC3671ABE29AF00DEC7B0;
+			remoteInfo = Contatos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFBEC3681ABE29AF00DEC7B0 /* Contatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBEC36C1ABE29AF00DEC7B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBEC36D1ABE29AF00DEC7B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFBEC36F1ABE29AF00DEC7B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFBEC3701ABE29AF00DEC7B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFBEC3731ABE29AF00DEC7B0 /* Contatos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contatos.xcdatamodel; sourceTree = "<group>"; };
+		AFBEC3751ABE29AF00DEC7B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFBEC3761ABE29AF00DEC7B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFBEC3791ABE29AF00DEC7B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFBEC37B1ABE29AF00DEC7B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFBEC37E1ABE29AF00DEC7B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AFBEC3841ABE29AF00DEC7B0 /* ContatosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContatosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBEC3891ABE29AF00DEC7B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBEC38A1ABE29AF00DEC7B0 /* ContatosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContatosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFBEC3651ABE29AF00DEC7B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBEC3811ABE29AF00DEC7B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFBEC35F1ABE29AF00DEC7B0 = {
+			isa = PBXGroup;
+			children = (
+				AFBEC36A1ABE29AF00DEC7B0 /* Contatos */,
+				AFBEC3871ABE29AF00DEC7B0 /* ContatosTests */,
+				AFBEC3691ABE29AF00DEC7B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFBEC3691ABE29AF00DEC7B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFBEC3681ABE29AF00DEC7B0 /* Contatos.app */,
+				AFBEC3841ABE29AF00DEC7B0 /* ContatosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFBEC36A1ABE29AF00DEC7B0 /* Contatos */ = {
+			isa = PBXGroup;
+			children = (
+				AFBEC36F1ABE29AF00DEC7B0 /* AppDelegate.h */,
+				AFBEC3701ABE29AF00DEC7B0 /* AppDelegate.m */,
+				AFBEC3751ABE29AF00DEC7B0 /* ViewController.h */,
+				AFBEC3761ABE29AF00DEC7B0 /* ViewController.m */,
+				AFBEC3781ABE29AF00DEC7B0 /* Main.storyboard */,
+				AFBEC37B1ABE29AF00DEC7B0 /* Images.xcassets */,
+				AFBEC37D1ABE29AF00DEC7B0 /* LaunchScreen.xib */,
+				AFBEC3721ABE29AF00DEC7B0 /* Contatos.xcdatamodeld */,
+				AFBEC36B1ABE29AF00DEC7B0 /* Supporting Files */,
+			);
+			path = Contatos;
+			sourceTree = "<group>";
+		};
+		AFBEC36B1ABE29AF00DEC7B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFBEC36C1ABE29AF00DEC7B0 /* Info.plist */,
+				AFBEC36D1ABE29AF00DEC7B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFBEC3871ABE29AF00DEC7B0 /* ContatosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFBEC38A1ABE29AF00DEC7B0 /* ContatosTests.m */,
+				AFBEC3881ABE29AF00DEC7B0 /* Supporting Files */,
+			);
+			path = ContatosTests;
+			sourceTree = "<group>";
+		};
+		AFBEC3881ABE29AF00DEC7B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFBEC3891ABE29AF00DEC7B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFBEC3671ABE29AF00DEC7B0 /* Contatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBEC38E1ABE29AF00DEC7B0 /* Build configuration list for PBXNativeTarget "Contatos" */;
+			buildPhases = (
+				AFBEC3641ABE29AF00DEC7B0 /* Sources */,
+				AFBEC3651ABE29AF00DEC7B0 /* Frameworks */,
+				AFBEC3661ABE29AF00DEC7B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contatos;
+			productName = Contatos;
+			productReference = AFBEC3681ABE29AF00DEC7B0 /* Contatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFBEC3831ABE29AF00DEC7B0 /* ContatosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBEC3911ABE29AF00DEC7B0 /* Build configuration list for PBXNativeTarget "ContatosTests" */;
+			buildPhases = (
+				AFBEC3801ABE29AF00DEC7B0 /* Sources */,
+				AFBEC3811ABE29AF00DEC7B0 /* Frameworks */,
+				AFBEC3821ABE29AF00DEC7B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFBEC3861ABE29AF00DEC7B0 /* PBXTargetDependency */,
+			);
+			name = ContatosTests;
+			productName = ContatosTests;
+			productReference = AFBEC3841ABE29AF00DEC7B0 /* ContatosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFBEC3601ABE29AF00DEC7B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Rossener;
+				TargetAttributes = {
+					AFBEC3671ABE29AF00DEC7B0 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					AFBEC3831ABE29AF00DEC7B0 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AFBEC3671ABE29AF00DEC7B0;
+					};
+				};
+			};
+			buildConfigurationList = AFBEC3631ABE29AF00DEC7B0 /* Build configuration list for PBXProject "Contatos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFBEC35F1ABE29AF00DEC7B0;
+			productRefGroup = AFBEC3691ABE29AF00DEC7B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFBEC3671ABE29AF00DEC7B0 /* Contatos */,
+				AFBEC3831ABE29AF00DEC7B0 /* ContatosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFBEC3661ABE29AF00DEC7B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBEC37A1ABE29AF00DEC7B0 /* Main.storyboard in Resources */,
+				AFBEC37F1ABE29AF00DEC7B0 /* LaunchScreen.xib in Resources */,
+				AFBEC37C1ABE29AF00DEC7B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBEC3821ABE29AF00DEC7B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFBEC3641ABE29AF00DEC7B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBEC3711ABE29AF00DEC7B0 /* AppDelegate.m in Sources */,
+				AFBEC36E1ABE29AF00DEC7B0 /* main.m in Sources */,
+				AFBEC3771ABE29AF00DEC7B0 /* ViewController.m in Sources */,
+				AFBEC3741ABE29AF00DEC7B0 /* Contatos.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBEC3801ABE29AF00DEC7B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBEC38B1ABE29AF00DEC7B0 /* ContatosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFBEC3861ABE29AF00DEC7B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFBEC3671ABE29AF00DEC7B0 /* Contatos */;
+			targetProxy = AFBEC3851ABE29AF00DEC7B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFBEC3781ABE29AF00DEC7B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFBEC3791ABE29AF00DEC7B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFBEC37D1ABE29AF00DEC7B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFBEC37E1ABE29AF00DEC7B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFBEC38C1ABE29AF00DEC7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFBEC38D1ABE29AF00DEC7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFBEC38F1ABE29AF00DEC7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Contatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFBEC3901ABE29AF00DEC7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Contatos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFBEC3921ABE29AF00DEC7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContatosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contatos.app/Contatos";
+			};
+			name = Debug;
+		};
+		AFBEC3931ABE29AF00DEC7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ContatosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contatos.app/Contatos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFBEC3631ABE29AF00DEC7B0 /* Build configuration list for PBXProject "Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBEC38C1ABE29AF00DEC7B0 /* Debug */,
+				AFBEC38D1ABE29AF00DEC7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFBEC38E1ABE29AF00DEC7B0 /* Build configuration list for PBXNativeTarget "Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBEC38F1ABE29AF00DEC7B0 /* Debug */,
+				AFBEC3901ABE29AF00DEC7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFBEC3911ABE29AF00DEC7B0 /* Build configuration list for PBXNativeTarget "ContatosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBEC3921ABE29AF00DEC7B0 /* Debug */,
+				AFBEC3931ABE29AF00DEC7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFBEC3721ABE29AF00DEC7B0 /* Contatos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFBEC3731ABE29AF00DEC7B0 /* Contatos.xcdatamodel */,
+			);
+			currentVersion = AFBEC3731ABE29AF00DEC7B0 /* Contatos.xcdatamodel */;
+			path = Contatos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFBEC3601ABE29AF00DEC7B0 /* Project object */;
+}
